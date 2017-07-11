@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.imgod.testlikealipaydialog.view.PasswordEditText
+        android:id="@+id/pet_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp70"
+        android:layout_margin="@dimen/dp16"
+        android:background="@null"
+        app:bgCorner="@dimen/dp8" />
+
+    <com.example.imgod.testlikealipaydialog.view.CustomerKeyboard
+        android:id="@+id/ckb_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp70"
+        android:text="展示弹窗"
+        android:onClick="onBtnClick"
+        />
+</LinearLayout>
